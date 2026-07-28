@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+
+# Build Output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Settings
+.vscode/settings.json
+.idea/
+
+# Temporary Files
+*.tmp
+*.temp
