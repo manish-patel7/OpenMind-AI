@@ -1,7 +1,7 @@
+import Logo from "./components/ui/Logo";
+
 function App() {
-  return (
-    <h1>🚀 Welcome to OpenMind AI</h1>
-  );
+  return <Logo />;
 }
 
 export default App;
