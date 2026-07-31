@@ -2,11 +2,15 @@ import "./Button.css";
 
 interface ButtonProps {
     children: React.ReactNode;
+    variant?: "primary" | "secondary";
 }
 
-function Button({ children }: ButtonProps) {
+function Button({
+    children,
+    variant = "primary",
+}: ButtonProps) {
     return (
-        <button className="btn">
+        <button className={`btn btn-${variant}`}>
             {children}
         </button>
     );

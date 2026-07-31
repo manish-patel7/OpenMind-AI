@@ -1,13 +1,7 @@
-import Logo from "./components/ui/Logo";
-import Button from "./components/ui/Button";
+import Navbar from "./components/Navbar";
 
 function App() {
-    return (
-        <>
-            <Logo />
-            <Button>Login</Button>
-        </>
-    );
+    return <Navbar />;
 }
 
 export default App;
