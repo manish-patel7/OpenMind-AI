@@ -1,0 +1,70 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+
+    margin-bottom: 40px;
+}
+
+.hero-input {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    max-width: 700px;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    background: white;
+}
+
+.hero-input input {
+    flex: 1;
+
+    border: none;
+    outline: none;
+
+    padding: 18px 20px;
+
+    font-size: 1rem;
+}
+
+.hero-input button {
+    border: none;
+    background: #0ea5e9;
+
+    color: white;
+
+    width: 60px;
+    height: 60px;
+
+    cursor: pointer;
+
+    font-size: 1.3rem;
+
+    transition: 0.3s;
+}
+
+.hero-input button:hover {
+    background: #0284c7;
+}
