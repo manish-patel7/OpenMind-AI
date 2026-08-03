@@ -1,36 +1,58 @@
 .hero {
+    min-height: calc(100vh - 80px);
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 850px;
 
     text-align: center;
+}
 
-    padding: 100px 20px;
+.hero-badge {
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 999px;
+
+    background: #eef6ff;
+    color: #2563eb;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-bottom: 30px;
 }
 
 .hero-title {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.15;
 
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #666;
 
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .hero-input {
     display: flex;
-    align-items: center;
 
-    width: 100%;
-    max-width: 700px;
+    max-width: 760px;
+    margin: auto;
 
-    border: 1px solid #dcdcdc;
+    border: 1px solid #d9d9d9;
     border-radius: 18px;
 
     overflow: hidden;
@@ -44,27 +66,26 @@
     border: none;
     outline: none;
 
-    padding: 18px 20px;
+    padding: 20px;
 
-    font-size: 1rem;
+    font-size: 17px;
 }
 
 .hero-input button {
-    border: none;
-    background: #0ea5e9;
+    width: 70px;
 
+    border: none;
+
+    background: #111827;
     color: white;
 
-    width: 60px;
-    height: 60px;
+    font-size: 22px;
 
     cursor: pointer;
 
-    font-size: 1.3rem;
-
-    transition: 0.3s;
+    transition: .25s;
 }
 
 .hero-input button:hover {
-    background: #0284c7;
+    background: #2563eb;
 }

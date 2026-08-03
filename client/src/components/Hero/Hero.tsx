@@ -1,27 +1,36 @@
 import "./Hero.css";
 
+
 function Hero() {
     return (
         <section className="hero">
 
-            <h1 className="hero-title">
-                Your Intelligent AI Assistant
-            </h1>
+            <div className="hero-content">
 
-            <p className="hero-subtitle">
-                Chat • Code • Images • Documents • Voice
-            </p>
+                <span className="hero-badge">
+                    🚀 Powered by OpenMind AI
+                </span>
 
-            <div className="hero-input">
+                <h1 className="hero-title">
+                    Your Intelligent AI Assistant
+                </h1>
 
-                <input
-                    type="text"
-                    placeholder="Ask anything..."
-                />
+                <p className="hero-subtitle">
+                    Chat • Code • Images • Documents • Voice
+                </p>
 
-                <button>
-                    →
-                </button>
+                <div className="hero-input">
+
+                    <input
+                        type="text"
+                        placeholder="Ask anything..."
+                    />
+
+                    <button>
+                        →
+                    </button>
+
+                </div>
 
             </div>
 
